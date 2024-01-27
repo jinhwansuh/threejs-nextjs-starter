@@ -2,7 +2,6 @@
   "extends": [
     "stylelint-config-recommended-scss", 
     "stylelint-config-prettier-scss",
-    "stylelint-config-styled-components",
     "stylelint-config-property-sort-order-smacss"
   ],
   "plugins": ["stylelint-scss"],
