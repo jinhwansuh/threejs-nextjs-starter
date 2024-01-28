@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic';
 import * as S from './page.styled';
 
 const CanvasViewer = dynamic(
-  () => import('../src/components/Canvas/CanvasViewer/CanvasViewer'),
+  () => import('~/components/Canvas/CanvasViewer/CanvasViewer'),
   { ssr: false },
 );
 
