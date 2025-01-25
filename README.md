@@ -9,11 +9,13 @@ yarn dev
 ```
 
 ### Stack
-- [`nextjs 14`](https://nextjs.org/) 
-- [`threejs`](https://github.com/mrdoob/three.js/) 
-- [`@react-three/fiber`](https://github.com/pmndrs/react-three-fiber)
-- [`@react-three/drei`](https://github.com/pmndrs/drei)
-- [`@react-three/rapier`](https://github.com/pmndrs/react-three-rapier)
+
+- [`nextjs 15`](https://nextjs.org/)
+- [`shadcn/ui`](https://ui.shadcn.com/)
+- [`tailwindcss 3`](https://tailwindcss.com/)
 - [`zustand`](https://github.com/pmndrs/zustand)
-- [`styled-components`](https://styled-components.com/)
+- [`threejs`](https://threejs.org/)
+- [`@react-three/fiber`](https://r3f.docs.pmnd.rs/)
+- [`@react-three/drei`](https://drei.docs.pmnd.rs/)
+- [`@react-three/rapier`](https://github.com/pmndrs/react-three-rapier)
 - [`leva`](https://github.com/pmndrs/leva)

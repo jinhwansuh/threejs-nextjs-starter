@@ -2,9 +2,9 @@
   "recommendations": [
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
-    "stylelint.vscode-stylelint",
     "wayou.vscode-todo-highlight",
     "raczzalan.webgl-glsl-editor",
-    "circledev.glsl-canvas"
+    "circledev.glsl-canvas",
+    "bradlc.vscode-tailwindcss"
   ]
 }

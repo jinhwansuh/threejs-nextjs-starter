@@ -1,22 +1,11 @@
 'use client';
 
-import { Suspense } from 'react';
-import dynamic from 'next/dynamic';
-import * as S from './page.styled';
-
-const CanvasViewer = dynamic(
-  () => import('~/components/Canvas/CanvasViewer/CanvasViewer'),
-  { ssr: false },
-);
+import CanvasViewer from '~/components/Canvas/CanvasViewer/CanvasViewer';
 
 export default function Home() {
   return (
-    <S.Container>
-      <S.CanvasWrapper>
-        <Suspense fallback={null}>
-          <CanvasViewer />
-        </Suspense>
-      </S.CanvasWrapper>
-    </S.Container>
+    <div className='h-full w-full'>
+      <CanvasViewer />
+    </div>
   );
 }
